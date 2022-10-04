@@ -1,0 +1,99 @@
+/* imported fonts are from https://www.cdnfonts.com/ */
+@import url('http://fonts.cdnfonts.com/css/lemonmilk');
+@import url('http://fonts.cdnfonts.com/css/effra-trial');
+@import url('http://fonts.cdnfonts.com/css/omnes-regular');
+@import url('http://fonts.cdnfonts.com/css/caribantu');
+
+body {
+    background: #cbdde7;
+}
+
+h1 {
+    background-color: white;
+    font-family: 'Lemon/Milk', sans-serif;
+    color: hsl(201, 23%, 41%);
+    font-size: 45px;
+    border: 2px solid black;
+    padding: 25px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+}
+
+h1 span {
+    color: #98b3c2;
+}
+
+h3 {
+    font-family: 'Effra Trial', sans-serif;
+    color: #517182;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 30px 0px 10px 0px;
+}
+
+h3 span {
+    background-color: rgb(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 4px 15px 4px 15px;
+    border: 2px solid black;
+}
+
+.section-body {
+    background-color: white;
+    border-radius: 15px;
+    padding: 17px 15px 17px 15px;
+    border: 2px solid black;
+    font-family: 'Caribantu', sans-serif;                               
+    font-size: 20px;
+    line-height: 27px;
+    
+}
+
+p {
+    margin: 4px 0px 4px 0px;
+}
+
+.sketch img {
+    width: 50vw;
+    max-width: 600px;
+    min-width: 320px;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+}
+
+.sketch {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 70vw;
+    margin: auto;
+}
+
+.personas img {
+    width: 65vw;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+}
+
+.personas {
+    display: flex;
+    justify-content: center;
+}
+
+.storyboard img {
+    width: 60vw;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+}
+
+.storyboard {
+    display: flex;
+    justify-content: center;
+}
+
+img { 
+    align-self: flex-start; 
+}
